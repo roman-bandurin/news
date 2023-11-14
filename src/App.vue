@@ -1,5 +1,15 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+<script  lang="ts">
+import HelloWorld from './components/HelloWorld.vue';
+export default {
+  name:'AppNews',
+  data(){
+    return{
+
+    }
+  },
+  mounted(){
+  }
+}
 </script>
 
 <template>
@@ -28,3 +38,4 @@ import HelloWorld from './components/HelloWorld.vue'
   filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
+./api/external/services/search-news/service
