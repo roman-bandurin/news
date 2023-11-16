@@ -6,7 +6,9 @@
     >
       <template #title>
         <v-container>
-          <v-app-bar-title class="ml-6">app</v-app-bar-title>
+          <v-app-bar-title class="ml-6">
+            app
+          </v-app-bar-title>
           <v-spacer />
         </v-container>
       </template>
